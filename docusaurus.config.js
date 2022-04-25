@@ -29,6 +29,9 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        /**
+         * @TODO 채워넣기
+         */
         // sitemap: {},
         // googleAnalytics: {},
         // gtag: {},
