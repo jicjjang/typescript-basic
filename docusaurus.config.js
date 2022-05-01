@@ -57,7 +57,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "index",
+            docId: "why-typescript/why-learn-typescript",
             position: "left",
             label: "docs",
           },
