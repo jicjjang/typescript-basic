@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "typescript basic",
-  tagline: "",
+  title: "기초부터 시작하는 타입스크립트",
+  tagline: `최신 버전의 타입스크립트 문서를 기반으로 차근차근 기초부터 알아봅시다!`,
   url: "https://jicjjang.github.io",
   baseUrl: "/typescript-basic/",
   onBrokenLinks: "throw",
@@ -15,7 +15,13 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "jicjjang",
   projectName: "typescript-basic",
+  customFields: {
+    description: `“자바스크립트의 기초를 끝냈는데 타입스크립트가 또 있다고?!”
+    타입스크립트를 처음 시작하시는 분들을 대상으로 하는 \`기초부터 시작하는 타입스크립트\` 강의 입니다.
+    최신 버전의 타입스크립트 문서를 바탕으로 여러분들의 타입스크립트 학습을 도와드릴 것입니다.`,
+  },
 
+  plugins: ["docusaurus-plugin-sass"],
   presets: [
     [
       "classic",
@@ -27,7 +33,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/custom.scss"),
         },
         /**
          * @TODO 채워넣기
@@ -43,9 +49,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "typescript basic",
+        title: "기초부터 시작하는 타입스크립트",
         logo: {
-          alt: "typescript basic",
+          alt: "기초부터 시작하는 타입스크립트",
           src: "img/logo.svg",
         },
         items: [
