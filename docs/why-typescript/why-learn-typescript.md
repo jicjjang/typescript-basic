@@ -11,7 +11,7 @@ description: 타입스크립트를 꼭 배워야 되나요?
   <meta property="og:description" content="타입스크립트를 꼭 배워야 되나요?" data-rh="true" />
 </head>
 
-# 타입스크립트
+## 타입스크립트
 
 ![what is typescript](/img/why-typescript/why-learn-typescript/what-is-typescript.jpg)
 
@@ -60,7 +60,7 @@ test("ho");
 console.log(param); // ho
 ```
 
-# 왜 타입스크립트를 꼭 배워야 할까요?
+## 왜 타입스크립트를 꼭 배워야 할까요?
 
 - 협업을 할 때, 팀원이 짠 코드의 의도를 더 분명히 알 수 있습니다.
 - 안정성
@@ -88,7 +88,7 @@ console.log(param);
 타입스크립트로 타입을 미리 지정해줌으로써 유저의 의도와 다른 값이 들어올 수 없습니다.  
 이러한 `안정성` 과 안정적으로 코딩을할 수 있으므로 자동으로 `생산성`이 증가하게 됩니다.
 
-# Reference
+## Reference
 
 - [타입스크립트의 목표](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals)
 - 미국 개발 커뮤니티 [레딧의 타입스크립트 도입](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)

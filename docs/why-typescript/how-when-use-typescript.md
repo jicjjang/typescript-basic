@@ -11,7 +11,7 @@ description: 언제, 어떻게 사용할 수 있나요?
   <meta property="og:description" content="언제, 어떻게 사용할 수 있나요?" data-rh="true" />
 </head>
 
-# 바닐라 자바스크립트
+## 바닐라 자바스크립트
 
 타입스크립트는 어떠한 자바스크립트 환경에서도 사용할 수 있습니다. 브라우저, node, deno 어디든 말이죠!
 
@@ -49,7 +49,7 @@ var applicationHtml = "<section><h1>title</h1></section><section><div>body</div>
 
 자세한 설명은 [typescript 사용 방법(들)](https://jicjjang.github.io/typescript-basic/docs/start/typescript-usage) 를 확인해주세요.
 
-# Node.js
+## Node.js
 
 Node.js에서도 복잡한 코드가 아니며, 자바스크립트와 동일한 문법으로 사용 가능합니다.
 
@@ -64,7 +64,7 @@ console.log(splitedVersion);
 하지만 도구의 차이로 인해 babel은 compile 성공, tsc는 compile 실패하게 됩니다.
 이 차이도 역시 [typescript 사용 방법(들)](https://jicjjang.github.io/typescript-basic/docs/start/typescript-usage) 를 참고해주세요.
 
-# Deno
+## Deno
 
 ![deno](/img/why-typescript/how-when-use-typescript/deno.jpg)
 
@@ -99,6 +99,6 @@ console.log(person1);
 
 당장은 생소한 코드일 수 있습니다. 하지만 interface에 없는 property인 `phone`을 넣은 부분에서 에러가 발생하는걸 눈치챌 수 있습니다.
 
-### Reference
+## Reference
 
 [예시 코드 github](https://github.com/jicjjang/typescript-basic-code/tree/why-typescript/how-when-use-typescript)
