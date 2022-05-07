@@ -101,4 +101,4 @@ console.log(person1);
 
 ## Reference
 
-[예시 코드 github](https://github.com/jicjjang/typescript-basic-code/tree/why-typescript/how-when-use-typescript)
+[코드 예시 - https://github.com/jicjjang/typescript-basic-code/tree/why-typescript/how-when-use-typescript](https://github.com/jicjjang/typescript-basic-code/tree/why-typescript/how-when-use-typescript)
