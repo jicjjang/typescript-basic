@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: function에 type 입력
 description: function에 type 입력
 ---
