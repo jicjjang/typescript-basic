@@ -50,7 +50,7 @@ $ npm -v
 Node.js의 package manager는 있으나 자바스크립트만의 package manager는 없습니다.
 
 그렇다면 Node.js가 나오기 전 javascript는 어떻게 package를 관리했을까요?  
-[(번외) npm으로 package를 설치한다는 것은](https://jicjjang.github.io/typescript-basic/docs/start/about-installing-package-with-npm)에서 알아보겠습니다.
+[(번외) npm으로 package를 설치한다는 것은](/docs/start/about-managing-package-with-npm)에서 알아보겠습니다.
 
 ![javascript vs node](/img/start/about-npm/javascript-node.jpg)
 

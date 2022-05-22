@@ -27,7 +27,7 @@ description: 타입스크립트의 사용 방법(들)
 
 ### 타입 체크가 불가능하다
 
-[앞에서도 설명](https://jicjjang.github.io/typescript-basic/docs/why-typescript/how-when-use-typescript#nodejs)드렸지만 바벨은 타입 체크가 불가능합니다.
+[앞에서도 설명](/docs/why-typescript/how-when-use-typescript#nodejs)드렸지만 바벨은 타입 체크가 불가능합니다.
 그렇기 때문에 타입의 에러가 발생하더라도 빠르게 compile이 동작합니다.
 
 ![babel code](/img/start/typescript-usage/babel-code.jpg)

@@ -47,7 +47,7 @@ var applicationHtml = "<section><h1>title</h1></section><section><div>body</div>
 
 > tsc(타입스크립트 컴파일러)을 이용해 타입스크립트를 적용한 결과
 
-자세한 설명은 [타입스크립트의 사용 방법(들)](https://jicjjang.github.io/typescript-basic/docs/start/typescript-usage) 를 확인해주세요.
+자세한 설명은 [타입스크립트의 사용 방법(들)](/docs/start/typescript-usage) 를 확인해주세요.
 
 ## Node.js
 
@@ -62,7 +62,7 @@ console.log(splitedVersion);
 ```
 
 하지만 도구의 차이로 인해 babel은 compile 성공, tsc는 compile 실패하게 됩니다.
-이 차이도 역시 [타입스크립트의 사용 방법(들)](https://jicjjang.github.io/typescript-basic/docs/start/typescript-usage) 를 참고해주세요.
+이 차이도 역시 [타입스크립트의 사용 방법(들)](/docs/start/typescript-usage) 를 참고해주세요.
 
 ## Deno
 
