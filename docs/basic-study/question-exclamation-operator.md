@@ -1,5 +1,5 @@
 ---
-sidebar_position: 13
+sidebar_position: 12
 title: "?, ! 연산자"
 description: "?, ! 연산자"
 ---
