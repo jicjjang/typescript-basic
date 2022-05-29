@@ -42,7 +42,7 @@ const objectValue2: {
 };
 ```
 
-이러한 방식으로 많이 사용하곤 하는데 프로퍼티가 많아질수록 타입 정의와 실제 코드가 두번씩 반복되게 되는 문제가 있습니다. 이는 뒤에 알려드릴 [interface, type](/docs/advanced-study/interface)을 이용해 변수처럼 사용할 수 있습니다.
+이러한 방식으로 많이 사용하곤 하는데 프로퍼티가 많아질수록 타입 정의와 실제 코드가 두번씩 반복되게 되는 문제가 있습니다. 이는 뒤에 알려드릴 [interface, type](/docs/basic-study/interface)을 이용해 변수처럼 사용할 수 있습니다.
 
 ## Function
 
