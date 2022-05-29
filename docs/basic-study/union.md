@@ -11,7 +11,7 @@ description: Union 타입
   <meta property="og:description" content="Union 타입" data-rh="true" />
 </head>
 
-union 타입은 우리가 아는 합집합의 의미, `or` 와 동일합니다.
+union 타입은 우리가 아는 `or` 와 동일합니다. (합집합의 의미라고 보긴 어렵습니다)
 
 ```ts
 const unionValue1 = string | number = 10; // ok

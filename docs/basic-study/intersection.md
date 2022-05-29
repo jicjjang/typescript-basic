@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 10
 title: Intersection 타입
 description: Intersection 타입
 ---
