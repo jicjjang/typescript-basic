@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 5
 title: 타입 별칭 (type alias)
 description: 타입 별칭 (type alias)
 ---

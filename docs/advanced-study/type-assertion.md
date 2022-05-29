@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 6
 title: 타입 단언 (type assertion)
 description: 타입 단언 (type assertion)
 ---

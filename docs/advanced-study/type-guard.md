@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 7
 title: 타입 가드
 description: 타입 가드
 ---

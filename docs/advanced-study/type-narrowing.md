@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 title: type narrowing (타입 좁히기)
 description: type narrowing (타입 좁히기)
 ---

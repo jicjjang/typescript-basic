@@ -1,14 +1,14 @@
 ---
 sidebar_position: 3
-title: null, undefined type
-description: null, undefined type
+title: null, undefined 타입
+description: null, undefined 타입
 ---
 
 <head>
   <meta name="title" content="Basic 학습 | 기초부터 시작하는 타입스크립트" data-rh="true" />
-  <meta name="description" content="null, undefined type" data-rh="true" />
+  <meta name="description" content="null, undefined 타입" data-rh="true" />
   <meta property="og:title" content="Basic 학습 | 기초부터 시작하는 타입스크립트" data-rh="true" />
-  <meta property="og:description" content="null, undefined type" data-rh="true" />
+  <meta property="og:description" content="null, undefined 타입" data-rh="true" />
 </head>
 
 null은 명시적으로 `빈 값으로 할당`하는 것이고, undefined는 `값이 정해지지 않음`을 의미합니다.
