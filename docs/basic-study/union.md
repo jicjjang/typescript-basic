@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 7
 title: Union 타입
 description: Union 타입
 ---
