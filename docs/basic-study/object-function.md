@@ -42,6 +42,8 @@ const objectValue2: {
 };
 ```
 
+이러한 방식으로 많이 사용하곤 하는데 프로퍼티가 많아질수록 타입 정의와 실제 코드가 두번씩 반복되게 되는 문제가 있습니다. 이는 뒤에 알려드릴 [interface, type](/docs/advanced-study/interface)을 이용해 변수처럼 사용할 수 있습니다.
+
 ## Function
 
 함수가 기본적으로 가지는 메소드들을 담고있습니다. 그렇다면 이 또한 `Object`와 비슷한 사유로 사용하지 않는 것이 좋겠죠?
@@ -70,6 +72,9 @@ function normalFunction(name: string, age: number): number {
 ```
 
 함수를 구현할 수 있는 방법은 일반 함수가 아닌 arrow 함수도 있지만, 타입스크립트를 사용하는 방법은 총 3가지 입니다.
+
+이 3가지 방법 중 조심해야 하는 케이스 또한 있습니다.
+이는 바로 다음장인 [기타 return type](/docs/basic-study/other-return-type)에서 알아보겠습니다.
 
 ---
 
