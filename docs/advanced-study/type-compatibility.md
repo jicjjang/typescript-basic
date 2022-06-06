@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 title: 타입 호환 (type compatibility)
 description: 타입 호환 (type compatibility)
 ---

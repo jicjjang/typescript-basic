@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 title: 타입 추론 (Literal type and inference)
 description: 타입 추론 (Literal type and inference)
 ---

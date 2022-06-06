@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 9
 title: 타입 모듈화 (type modularization)
 description: 타입 모듈화 (type modularization)
 ---
