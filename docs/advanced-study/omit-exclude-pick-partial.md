@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 7
 title: Omit, Exclude, Pick, Partial
 description: Omit, Exclude, Pick, Partial
 ---
