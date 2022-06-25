@@ -47,7 +47,7 @@ function isFish(pet: IAnimal): pet is IFish;
 
 ## as
 
-as키워드는 타입을 강제로 지정하는 방법으로 [enum](/docs/basic-study/enum) 강의에서 enum 강의에서 const object를 만들때 사용했습니다.
+as키워드는 타입을 강제로 지정하는 방법으로 [Enum](/docs/basic-study/enum) 강의에서 enum 강의에서 const object를 만들때 사용했습니다.
 
 ```ts
 const divElement = document.querySelector("div"); // HTMLDivElement | null
