@@ -36,7 +36,7 @@ car2(20); // 정상 동작
 
 위 예제코드처럼 특정 함수에는 타입 지정을, 특정 함수에는 타입을 지정하지 않는 방식으로 개발을 진행하면 됩니다.
 
-## 2. 자바처럼 타입 체크를 하게되면 run-time 언어인 자바스크립트를 장점이 없어지지 않나요?
+## 2. 자바처럼 타입 체크를 하게되면 run-time 언어인 자바스크립트의 장점이 없어지지 않나요?
 
 타입스크립트를 사용한다는 것이 `동적 타입 언어`로써의 특징을 버린다는 것은 아닙니다.
 
@@ -62,13 +62,13 @@ console.log(wheel1);
 console.log(wheel2);
 ```
 
-에러는 발생하지만 타입스크립트 build 후에 자바스크립트가 되기 때문에 run time의 속성을 가지고 있으며  
+에러는 발생하지만 타입스크립트 build 후에 자바스크립트가 되기 때문에 run time의 속성을 가지고 있으며
 wheel1, wheel2의 값이 정상적으로 출력됩니다.
 
 ## 3. 업데이트는 잘 되고 있나요?
 
-[타입스크립트 release note](https://github.com/microsoft/TypeScript/releases) 를 보면  
-v4.6까지 나왔으며 v4.7 beta 또한 개발이 진행 중입니다.  
+[타입스크립트 release note](https://github.com/microsoft/TypeScript/releases) 를 보면
+v4.6까지 나왔으며 v4.7 beta 또한 개발이 진행 중입니다.
 업데이트는 매우 빈번히 진행되고 있습니다. 또한 업데이트에 맞춰 문서도 잘 정리되어 있습니다.
 
 ![stable version](/img/why-typescript/worry-of-users-who-do-not-use-typescript/stable-version.jpg)
