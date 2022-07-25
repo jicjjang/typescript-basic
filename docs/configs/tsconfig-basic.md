@@ -12,9 +12,9 @@ description: tsconfig 기본 설정
 </head>
 
 tsconfig에는 6가지 프로퍼티를 설정할 수 있습니다. `files`, `extends`, `include`, `exclude`, `references`,
-그리고 마지막으로 `compileOptions` 입니다.
+그리고 마지막으로 `compilerOptions` 입니다.
 
-그중 `compileOptions`를 제외한 5가지를 알아보고 다음 강의에서 `compileOptions`에 대해 알아보겠습니다.
+그중 `compilerOptions`를 제외한 5가지를 알아보고 다음 강의에서 `compilerOptions`에 대해 알아보겠습니다.
 
 ## files
 
