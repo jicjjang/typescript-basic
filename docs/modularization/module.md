@@ -94,3 +94,9 @@ export const twoPi = valueOfPi * 2;
 import { valueOfPi } from "./constants";
 export const twoPi = valueOfPi * 2;
 ```
+
+---
+
+module 강의는 앞에서 모듈에 대한 언급도 있었고, 자바스크립트를 어느정도 사용하고 있었다면 이미 알고 사용하였을만한 부분이라 판단되어 넘어갑니다.
+
+감사합니다.

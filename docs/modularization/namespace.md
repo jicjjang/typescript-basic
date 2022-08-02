@@ -11,10 +11,6 @@ description: namespace
   <meta property="og:description" content="namespace" data-rh="true" />
 </head>
 
-module 강의를 간단하게 넘어간 이유는 자바스크립트를 어느정도 사용하고 있었다면 추가적으로 더 배울 내용 없이 어느정도 알고 있었을만한 내용들이기 때문입니다.
-
----
-
 아래와 같은 타입스크립트가 적용된 코드가 있다고 예를 들어보겠습니다.
 
 ```ts
