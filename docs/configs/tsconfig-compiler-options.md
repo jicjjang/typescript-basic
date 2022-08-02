@@ -247,4 +247,16 @@ polyfill이라고 생각해주셔도 됩니다.
 
 ---
 
+## cli
+
+cli 환경에서 `tsc` 명령어를 통해 서비스를 구동하기 위해서는 명령어에서 지원해주는 옵션들을 알고있어야 합니다.
+하지만 tsconfig의 옵션 대부분이 cli 환경에서도 사용할 수 있게 지원해주기 때문에 대부분의 옵션이 중복됩니다.
+
+이 옵션들은 [공식 홈페이지](https://www.typescriptlang.org/ko/docs/handbook/compiler-options.html) 에서도 잘 설명해줍니다.
+
+이러한 cli 옵션을 포함한 tsc는 간단한 개발 테스트에서 많이 넣고, 설정의 양이 많아지는 production에서는 tsconfig가 필수이므로
+cli보다는 tsconfig.json을 위주로 학습하시길 권유드립니다.
+
+---
+
 감사합니다.
