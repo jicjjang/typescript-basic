@@ -16,8 +16,11 @@ description: 언제, 어떻게 사용할 수 있나요?
 타입스크립트는 어떠한 자바스크립트 환경에서도 사용할 수 있습니다. 브라우저, node, deno 어디든 말이죠!
 
 ```ts
-const applicationHtml: string = "<section><h1>title</h1></section><section><div>body</div></section>";
-document.querySelector("#app")?.insertAdjacentHTML("beforeend", applicationHtml);
+const applicationHtml: string =
+  "<section><h1>title</h1></section><section><div>body</div></section>";
+document
+  .querySelector("#app")
+  ?.insertAdjacentHTML("beforeend", applicationHtml);
 ```
 
 document에 접근하기 때문에 위 코드는 브라우저 환경임을 바로 알 수 있습니다.
@@ -28,8 +31,10 @@ document에 접근하기 때문에 위 코드는 브라우저 환경임을 바�
 
 var _document$querySelect;
 
-var applicationHtml = "<section><h1>title</h1></section><section><div>body</div></section>";
-(_document$querySelect = document.querySelector("#app")) === null || _document$querySelect === void 0
+var applicationHtml =
+  "<section><h1>title</h1></section><section><div>body</div></section>";
+(_document$querySelect = document.querySelector("#app")) === null ||
+_document$querySelect === void 0
   ? void 0
   : _document$querySelect.insertAdjacentHTML("beforeend", applicationHtml);
 ```
@@ -39,7 +44,8 @@ var applicationHtml = "<section><h1>title</h1></section><section><div>body</div>
 ```js
 // 지금 이해할 필요 없는 예시!! tsc의 결과물
 var _a;
-var applicationHtml = "<section><h1>title</h1></section><section><div>body</div></section>";
+var applicationHtml =
+  "<section><h1>title</h1></section><section><div>body</div></section>";
 (_a = document.querySelector("#app")) === null || _a === void 0
   ? void 0
   : _a.insertAdjacentHTML("beforeend", applicationHtml);
@@ -98,7 +104,3 @@ console.log(person1);
 ```
 
 당장은 생소한 코드일 수 있습니다. 하지만 interface에 없는 property인 `phone`을 넣은 부분에서 에러가 발생하는걸 눈치챌 수 있습니다.
-
-## Reference
-
-[코드 예시 - https://github.com/jicjjang/typescript-basic-code/tree/why-typescript/how-when-use-typescript](https://github.com/jicjjang/typescript-basic-code/tree/why-typescript/how-when-use-typescript)
