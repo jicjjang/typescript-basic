@@ -21,7 +21,7 @@ object를 할당하기 위해서는
 다음으로 `Object` 는 전역 객체를 나타냅니다. 다른 여러 object에 영향을 주고싶지 않다면 건드리지 말아야 합니다.
 
 ```ts
-const objectValue1: objectValue {
+const objectValue1: objectValue = {
   name: "jed",
   age: 30,
   job: "FE Developer",
