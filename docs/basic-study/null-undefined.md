@@ -21,8 +21,6 @@ const nullVar: null = null;
 const undefinedVar: undefined = undefined;
 ```
 
-아니 근데, 위에 처럼 코드를 작성한다면 다른 값을 못넣잖아요?
-한가지 방법은 `strictNullChecks` 설정을 false로 두는 것입니다. (tsconfig.json `strict` 설정을 false로)
 기본적으로 null, undefined는 모든 타입에 대입이 가능한 타입으로 strict 한 체크가 아니라면 어떤 값에라도 대응이 가능합니다.
 
 ```ts
