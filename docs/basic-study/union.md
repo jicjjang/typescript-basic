@@ -14,9 +14,9 @@ description: Union 타입
 union 타입은 우리가 아는 `or` 와 동일합니다. (합집합의 의미라고 보긴 어렵습니다)
 
 ```ts
-const unionValue1 = string | number = 10; // ok
-const unionValue2 = string | number = '10'; // ok
-const unionValue3 = string | number = false; // error!
+const unionValue1: string | number = 10; // ok
+const unionValue2: string | number = "10"; // ok
+const unionValue3: string | number = false; // error!
 ```
 
 union도 타입이기 때문에 함수에도 동일하게 적용 가능합니다.
